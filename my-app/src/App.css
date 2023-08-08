@@ -1,0 +1,32 @@
+.side-style{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateX();
+  width: 280px;
+}
+
+.side-style.closed{
+  width: 60px;
+}
+.play :hover{
+  cursor:grabbing;
+}
+.play :hover{
+  cursor:grabbing;
+}
+
+.main-style{
+  transition: left 0.3s ease-in-out, margin-left 0.3s ease-in-out; /* Added transition for margin-left */
+
+  margin-left: 280px;
+  top: 0;
+  left: 280px;
+  background-color: #f8f9fe;
+  transform: translateX(0);
+}
+.main-style.closed{
+  left: 60px;
+  margin-left: 60px;
+}

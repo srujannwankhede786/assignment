@@ -1,0 +1,135 @@
+
+.rcorners3 {
+    border-radius: 25px;
+    background: green;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 100%;
+    height: 150px;  
+    align-items: center;
+  }
+.container-capsule{
+  height: auto ;
+  align-items: center;
+  justify-content: center;
+}
+.container-capsule .btn{
+  color: black;
+  background-color: white;  
+  border-style:none;
+  padding: 10;
+}
+
+.container-quadra{
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content{
+  align-content:center;
+  align-items: center;
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  width: max-content;
+  position:relative;
+}
+
+.content2{
+  align-content:center;
+  align-items: center;
+  text-align: left;
+  padding-right: 13px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  width: max-content;
+  position:relative;
+}
+.content2 div{
+  width: auto;
+}
+
+.left-rounded-button {
+  border-top-left-radius: 20px; /* Adjust the value as needed */
+  border-bottom-left-radius: 20px; /* Adjust the value as needed */
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: white;  
+  height: auto;
+  width:max-content;
+  /* border-style: none; */
+  /* Add margin between buttons */
+  /* Add more custom styles here if desired */
+}
+
+/* Hover effect */
+/* .left-rounded-button:hover {
+  background-color: #007bff;
+  color: #fff;
+} */
+
+
+.right-rounded-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 20px; /* Adjust the value as needed */
+  border-bottom-right-radius: 20px; /* Adjust the value as needed */
+  background-color: white;  
+  height: auto;
+  width:max-content;
+}
+
+.center-rounded-button {
+  /* border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0; */
+  border-left: 1;
+  border-right: 1;
+  background-color: white; 
+  height: auto;width:max-content;
+  border-left: 1;
+  margin-left: 2px;
+  border-right: 2;
+  margin-right: 2px;
+}
+
+.full-round-button{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px; /* Adjust the value as needed */
+  border-bottom-right-radius: 20px;
+  background-color: white;
+}
+
+
+/* Hover effect */
+/* .right-rounded-button:hover {
+  background-color: #007bff;
+  color: #fff;
+} */
+
+.light-text{
+  text-decoration: none;
+  color: #9197b3;
+  font-size: 0.8rem;
+  transition: color 0.2s;
+  align-content: center;
+}
+
+.subtitle-text{
+  color: #000000;
+  font-size: 0.5rem;
+
+}
+
+
+
+

@@ -1,0 +1,82 @@
+/* Sidebar.css */
+.sidebar {
+  width: 280px;
+  height: 100%;
+  background-color: #ffffff;
+  color: #9197b3;
+  transition: left 0.3s ease-in-out;
+  transform: translateX(0);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: -220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  left: 0px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #9197b3;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.nav-links li {
+  padding: 15px 20px;
+  transition: background-color 0.2s;
+  border-radius: 5px;
+}
+
+.nav-links li:hover {
+  background-color: #6565ea;
+  color: #ffffff;
+}
+
+.nav-links li:hover a {
+  color: #ffffff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #9197b3;
+  font-size: 1rem;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.collapse-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.collapse-button:hover {
+  background-color: #555;
+}
